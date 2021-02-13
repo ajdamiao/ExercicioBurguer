@@ -6,6 +6,8 @@ public class Burguer {
     protected double price;
     protected String breadRollType;
 
+
+    //============================= DECLARAÇÃO ADICIONAIS =============================
     protected String addt1;
     protected double addt1Price;
 
@@ -17,6 +19,7 @@ public class Burguer {
 
     protected String addt4;
     protected double addt4Price;
+    //============================= FIM ADICIONAIS =============================
 
     public Burguer(String name, String meat, double price, String breadRollType) {
         this.name = name;
@@ -25,6 +28,8 @@ public class Burguer {
         this.breadRollType = breadRollType;
     }
 
+
+    //============================= ADICIONAIS =============================
     public void adicional1(String name, double price)
     {
         this.addt1 = name;
@@ -48,6 +53,8 @@ public class Burguer {
         this.addt4 = name;
         this.addt4Price = price;
     }
+
+    //============================= FIM ADICIONAIS =============================
 
     public double hamburguer()
     {

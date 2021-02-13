@@ -12,6 +12,8 @@ public class HealthBurguer extends Burguer{
         super(name, meat, price, breadRollType);
     }
 
+
+    //============================= ADICIONAIS EXTRAS =============================
     public void adicional5(String name, double price)
     {
         this.addt5 = name;
@@ -23,6 +25,7 @@ public class HealthBurguer extends Burguer{
         this.addt6 = name;
         this.addt6Price = price;
     }
+    //============================= FIM ADICIONAIS EXTRAS =============================
 
     public void healthBuguerFinalPrice()
     {
